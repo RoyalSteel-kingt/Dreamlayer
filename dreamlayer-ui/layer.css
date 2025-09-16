@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url('../images/cloud.gif');
+    background-size: 225%;
+    color: #FFFFFF;
+}
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 256px;
+    padding-top: 30px;
+    padding-left: 3em;
+    background-image: url('../images/dreamlayer-image.png');
+    background-position: center;
+    background-size: 100%;
+}
+nav {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 150px;
+    padding: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 120%;
+    font-weight: bold;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+nav a {
+    text-decoration: none;
+    transition: color 2s linear;
+}
+nav a:link {
+    color: #FFFFFF;
+}
+nav a:visited {
+    color: #FFFFFF;
+}
+nav a:hover {
+    color: #F5B1A9;
+}
+footer {
+    text-align: center;
+    margin-left: 160px;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:link {
+    color: #FFFFFF;
+}
+footer a:visited {
+    color: #FFFFFF;
+}
+footer a:hover {
+    color: #B2C0D4;
+}
+h1 {
+    margin-bottom: 0;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 160px;
+    padding: 10px;
+    background: #677191;
+    overflow: auto;
+}
+section {
+    float: left;
+    width: 50%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+table {
+    border-collapse: collapse;
+    background-image: linear-gradient(to left, #56565C, #58656E);
+    border: 1px solid #000000;
+}
+tr:nth-of-type(odd) {
+    background-color: #28282B;
+}
+th {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+td {
+    border: 1px solid #151517;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 200px;
+    padding-right: 5px;
+}
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+select {
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"] {
+    margin-left: 200px;
+}
+fieldset {
+    background-image: linear-gradient(to left, #56565C, #58656E);
+}
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom, #B2C0D4, #677191);
+    border: 2px solid #FFFFFF;
+    box-shadow: 3px 3px 3px #677191;
+}
+.bold {
+    font-weight: bold;
+}
